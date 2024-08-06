@@ -68,7 +68,7 @@
 }
 
 .paragraph {
-    font-size: 24px;
+    font-size: 20px;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-weight: 300;
 }
@@ -142,7 +142,7 @@
 
 /* Back ground image for fall section */
 .bg-fall {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/fall.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/f-5.jpg");
     height: 55vh;
     background-size: cover;
     width: 100%;
@@ -210,7 +210,6 @@
     width: 100%;
     background-color: #9e5036da;
     text-align: center;
-
 }
 
 .know-more h2 {
@@ -323,10 +322,80 @@
 }
 
 /* bckground chrishmats */
-.bg-chrishmats{
+.bg-chrishmats {
     background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/crhishmats.jpeg");
     height: 55vh;
     background-size: cover;
     width: 100%;
-    background-position: center; 
+    background-position: center;
+}
+
+/* Bg for valentine  */
+.bg-valentine {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/valentine-1.jpg");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+/* bg easter  */
+.bg-easter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/easter-5.webp");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.bg-mother {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/m-6.webp");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+}
+
+.bg-summer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/s-6.jpg");
+    height: 55vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.color {
+    background-color: whitesmoke;
+}
+
+/* boutque section  */
+.bg-boutque {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.548)), url("./image/sum-1.jpg");
+    height: 35vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.bg-boutque h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.button button {
+    background-color: #b26b53;
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+}
+
+.button button:hover {
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+.color-1{
+    background-color: #F8F3F1;
 }
