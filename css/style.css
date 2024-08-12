@@ -644,10 +644,8 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+ padding: 4px;  
+
 }
 
 @media (min-width: 576px) {
